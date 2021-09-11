@@ -1,0 +1,34 @@
+Departments as d
+----
+DeptNum PK VARCHAR(10)
+DeptName VARCHAR
+
+Titles as t
+----
+TitleID PK VARCHAR(10)
+TitleName VARCHAR
+
+Employees as e
+----
+EmpNum PK INT
+EmpTitleID VARCHAR(10) FK - t.TitleID
+BirthDate DATE
+FirstName VARCHAR
+LastName VARCHAR
+Sex VARCHAR
+HireDate DATE
+
+DeptEmployees
+----
+DeptNum PK VARCHAR(10) FK - d.DeptNum
+EmpNum PK INT FK - e.EmpNum
+
+DeptManagers
+----
+DeptNum PK VARCHAR(10) FK - d.DeptNum
+EmpNum PK INT FK - e.EmpNum
+
+Salaries
+----
+EmpNum PK INT FK - e.EmpNum
+Salary INT
