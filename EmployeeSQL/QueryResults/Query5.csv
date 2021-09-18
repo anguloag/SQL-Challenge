@@ -1,4 +1,4 @@
-"firstname","lastname","sex"
+"first_name","last_name","sex"
 "Hercules","Baer","M"
 "Hercules","Biron","F"
 "Hercules","Birge","F"
@@ -16,6 +16,6 @@
 "Hercules","Biran","F"
 "Hercules","Bain","F"
 "Hercules","Brendel","F"
-"Hercules","Buchter","M"
 "Hercules","Barreiro","M"
+"Hercules","Buchter","M"
 "Hercules","Baak","M"
